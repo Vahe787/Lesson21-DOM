@@ -5,26 +5,25 @@
 .main-div {
   display: flex;
   margin-left: 25%;
-  border-radius: 50px;
   width: 50%;
   height: 500px;
   padding: 10px;
   align-items: center;
-  background: cyan;
+  background: rgb(255, 251, 126);
 }
 
 .date-btn {
-  border: none;
-  font-size: 30px;
-  border-radius: 30px;
-  color: rgb(96, 1, 128);
+  background: transparent;
   padding: 20px;
+  border: 2px solid rgb(96, 1, 128);
+  color: rgb(96, 1, 128);
+  font-size: 30px;
   transition: 0.5s;
 }
 
 .date-btn:hover {
   background: rgb(96, 1, 128);
-  color: cyan;
+  color: rgb(251, 255, 0);
 }
 
 .date {
