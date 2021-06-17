@@ -1,0 +1,22 @@
+.global {
+  height: 40vh;
+}
+
+.parallel {
+  margin-left: 25%;
+  width: 50%;
+  height: 500px;
+  padding: 10px;
+  background: rgb(255, 251, 126);
+}
+
+#text {
+  font-size: 30px;
+  margin-left: 22%;
+  background: rgb(226, 167, 255);
+}
+
+#underText {
+  font-size: 60px;
+  color: rgb(181, 34, 255);
+}
