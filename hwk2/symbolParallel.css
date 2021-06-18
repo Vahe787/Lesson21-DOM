@@ -7,16 +7,27 @@
   width: 50%;
   height: 500px;
   padding: 10px;
-  background: rgb(255, 251, 126);
+  border-radius: 30px;
+  background: rgb(251, 255, 0);
+  border: none;
 }
 
 #text {
   font-size: 30px;
-  margin-left: 22%;
-  background: rgb(226, 167, 255);
+  margin-left: 20%;
+  padding: 10px;
+  border: 2px solid #aaa;
+  border-radius: 8px;
+  outline: none;
+  transition: 0.3s;
+}
+
+#text:focus {
+  border-color: dodgerblue;
+  box-shadow: 0 0 10px 0 dodgerblue;
 }
 
 #underText {
   font-size: 60px;
-  color: rgb(181, 34, 255);
+  color: dodgerblue;
 }
