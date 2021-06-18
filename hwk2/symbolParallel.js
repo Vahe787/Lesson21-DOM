@@ -1,5 +1,8 @@
 let inp = document.querySelector("#text");
+let date = document.querySelector("#underText");
 
-inp.onkeyup = function () {
-  document.querySelector("#underText").innerHTML = inp.value;
-};
+inp.addEventListener("keyup", underText);
+
+function underText() {
+  date.textContent = inp.value;
+}
