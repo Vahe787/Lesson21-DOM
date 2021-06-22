@@ -58,6 +58,12 @@ function finishValid() {
     emailError.textContent === "" &&
     pswError.textContent === ""
   ) {
-    alert("Register is Valid");
+    let user = [
+      { name: nameInp.value },
+      { surname: surnameInp.value },
+      { email: emailInp.value },
+    ];
+    let data = JSON.stringify(user);
+    alert(data);
   }
 }
