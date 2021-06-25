@@ -32,11 +32,11 @@ function startTimer() {
       second.value = 60;
       hours.value--;
     }
-    if (minute.value < 1 && second.value < 0) {
+    if (minute.value < 1) {
       hours.value = 0;
     }
     second.value--;
-  }, 1000);
+  }, 100);
   start.removeEventListener("click", startTimer);
 }
 
