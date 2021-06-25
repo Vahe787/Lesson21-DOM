@@ -1,0 +1,68 @@
+body {
+  background: url("https://www.teahub.io/photos/full/15-150142_summer-wallpaper-desktop-backgrounds-summer-wallpaper-background.jpg");
+  background-size: cover;
+}
+
+.timer {
+  display: flex;
+  margin-top: 15%;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.hours,
+.p-hrs,
+.minute,
+.p-min,
+.second,
+.p-sec {
+  font-size: 80px;
+  padding: 10px;
+  text-align: center;
+  color: rgb(254, 255, 196);
+  background: none;
+  width: 10%;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+
+.hours:hover,
+.p-sec:hover,
+.minute:hover,
+.p-min:hover,
+.second:hover,
+.p-sec:hover {
+  border-bottom: 1px solid rgb(48, 143, 150);
+}
+
+.timer-buttons {
+  display: flex;
+  padding: 40px 0;
+  border: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.start,
+.stop,
+.reset {
+  background: transparent;
+  font-size: 50px;
+  padding: 15px;
+  color: rgb(255, 165, 70);
+  border: none;
+  cursor: pointer;
+}
+
+.start:hover,
+.stop:hover,
+.reset:hover {
+  border-bottom: 1px solid rgb(48, 143, 150);
+  border-top: 1px solid rgb(48, 143, 150);
+}
+
+::placeholder {
+  color: rgb(254, 255, 196);
+}
