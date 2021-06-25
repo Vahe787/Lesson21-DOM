@@ -11,8 +11,6 @@ body {
   justify-content: center;
 }
 
-.hours,
-.p-hrs,
 .minute,
 .p-min,
 .second,
@@ -28,8 +26,6 @@ body {
   border: none;
 }
 
-.hours:hover,
-.p-sec:hover,
 .minute:hover,
 .p-min:hover,
 .second:hover,
