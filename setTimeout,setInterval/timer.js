@@ -36,7 +36,7 @@ function startTimer() {
       hours.value = 0;
     }
     second.value--;
-  }, 100);
+  }, 1000);
   start.removeEventListener("click", startTimer);
 }
 
