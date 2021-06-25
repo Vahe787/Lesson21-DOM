@@ -51,5 +51,7 @@ function resetInterval() {
   minute.value = 0;
   hours.value = 0;
   hours.removeAttribute("readonly");
+  minute.removeAttribute("readonly");
+  second.removeAttribute("readonly");
   start.addEventListener("click", startTimer);
 }
